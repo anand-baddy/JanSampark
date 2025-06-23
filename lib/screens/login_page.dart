@@ -344,7 +344,7 @@ Future<void> _loadLoginImages() async {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         // IMAGES (large, stacked vertically or side-by-side)
-                        Column(
+                        Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                              Expanded( 
